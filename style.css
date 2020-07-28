@@ -1,72 +1,98 @@
+/* title */
+.jumbotron {
+  width: 100%;
+}
+
+/* this for class center many element have it */
+.center {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+/* this should change to body */
+.container-fluid {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+ 
+/* nav */
 .nav-header {
   font-family: Tahoma, Geneva, sans-serif;
   position: fixed;
 }
-.container-fluid {
-  font-family: Tahoma, Geneva, sans-serif;
-}
-.navbar {
 
+.navbar {
   align: right;
-}
-.nav-list {
-  background: light-gray;
-  list-style-type: none;
-}
+}/* end of nav */
+
+
+
+/* title and title  */
 .header-container {
   height: auto;
-  background: black url("http://brandiportfolio.com/images/screenshots/midterm1.jpg") no-repeat top;
+  background: white url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80") no-repeat top;
+  /* background: blue; */
+  /* url("https://thumbs.gfycat.com/NeedyFalseGosling-size_restricted.gif") no-repeat top; */
   background-attachment: fixed;
   background-size: cover;
   margin-bottom: auto;
 }
+
 .header-image {
-  
+
 }
+
 h1 {
   text-align: center;
 }
+
 h1.title {
-  color: #006600;
-  font-family: Impact, Charcoal, sans-serif;
-  font-size: 120px;
+  color: white;
+  font-family: sans-serif;
+  /* font-size: 80px; */
   word-spacing: 10px;
   margin-top: 100px;
   text-shadow: 6px 6px black;
 }
+
 h1.sub-title {
   text-align: center;
-  color: #B0B0B0;
-  font-family: Tahoma, Geneva, sans-serif;
+  color: #f7f9f9;
+  font-family: sans-serif;
   margin-top: -20px;
   margin-bottom: 80px;
   text-shadow: 3px 2px black;
-  font-size: 40px;
+  /* font-size: 40px; */
 }
+
 .social-btns {
   text-align: center;
 }
+
 .btn-social {
   margin: 20px;
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
   width: 150px;
-}
+}/* end of header */
+
+/* about */
 .about-section {
-  background-color: #6B8E23;
+  background-color: #ecf0f1;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .img-profile {
   margin: 0 auto;
   border: 4px solid #202020;
-  width: 50%
+  width: 50%;
 }
+
 h2.about {
   font-size: 40px;
   color: #202020;
   text-shadow: 1px 1px white;
-  
 }
+
 .text-about {
   margin: auto;
   justify-content: center;
@@ -74,24 +100,23 @@ h2.about {
   position: relative;
   vertical-align: middle;
 }
-.center {
-  width: 90%;
-  margin: auto;
-  padding: 10px;
-}
-.left {
-  float: left;
-}
+
+
+
+
+/* projects */
 .container-portfolio {
-  background: black url('http://brandiportfolio.com/images/screenshots/thesisdesk.jpg') no-repeat top;
+  background: #fffafa url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg") no-repeat top;
   height: auto;
   background-attachment: fixed;
   background-size: cover;
   padding-bottom: 60px;
 }
+
 .back-image-port {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 .portfolio-img {
   width: 300px;
   height: 200px;
@@ -99,48 +124,25 @@ h2.about {
   border: 2px solid #303030;
   overflow: hidden;
 }
-.port1 {
-  background: url("http://brandiportfolio.com/images/screenshots/pin-a-gram.png");
-  background-size: cover;
-}
-.port2 {
-  background: url("http://brandiportfolio.com/images/screenshots/anagramerator.png");
-  background-size: cover;
-}
-.port3 {
-  background: url("http://brandiportfolio.com/images/screenshots/portfolio.png");
-  background-size: cover;
-}
-.port4 {
-  background: url("http://brandiportfolio.com/freecodecamp/quote-generator/quote-generator.jpg");
-  background-size: cover;
-}
-.port5 {
-  background: url("http://brandiportfolio.com/freecodecamp/calculator/calc.jpg");
-  background-size: cover;
-}
-.port6 {
-  background: url("http://brandiportfolio.com/freecodecamp/pomodoro-clock/clock.jpg");
-  background-size: cover;
-}
+
 .portfolio-overlay {
   background: maroon;
   text-align: center;
-  padding: 45px 0 66px 0;
+  padding: 25px 0 66px 0;
   opacity: 0;
-  -webkit-transition: opacity .25s ease;
-
+  -webkit-transition: opacity 0.25s ease;
 }
 .portfolio-img:hover .portfolio-overlay {
   opacity: 0.8;
 }
-.icon {
+
+/* .icon {
   font-family: Helvetica;
-  font-weight: 900;
+  font-weight: 20px;
   color: white;
-  font-size: 96px;
+  font-size: 20;
   margin: 30px auto;
-}
+} */
 
 h2.port-header {
   color: #808080;
@@ -149,7 +151,6 @@ h2.port-header {
 }
 
 h2.portfolio {
-
   padding: 10px;
   width: 300px;
   background-color: #303030;
@@ -160,27 +161,61 @@ h2.portfolio {
   font-weight: bold;
   color: white;
 }
+
 h2.header {
   font-family: Impact, Charcoal, sans-serif;
   padding: 20px;
 }
 
 .contact-container {
-    background: black url('http://brandiportfolio.com/images/screenshots/thesisdesk.jpg') no-repeat bottom;
+  background: red url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg") no-repeat bottom;
   height: 300px;
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* projects */
+#slackbot {
+  background: url("slackbot.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#covid-19 {
+  background: url("covid-19.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#pokedex {
+  background: url("pokedex.gif") no-repeat 50%;
+  background-size: cover;
+}
+
+#data_science {
+  background: url("data_science.png") no-repeat 50%;
+  background-size: cover;
+}
+
+#rumblr {
+  background: url("rumblr.png") no-repeat 50%;
+  background-size: cover;
+}/* end of projects */
+
+/* footer */
 .footer {
   background-color: #808080;
-  padding: 10px
+  padding: 10px;
+  width: auto
 }
+
 p.footer {
-  word-spacing: 30px;
   padding: 20px;
   color: white;
   text-align: center;
+
 }
+
 a.footer {
   color: white !important;
 }
+
+/* end footer */
