@@ -75,6 +75,7 @@ h1.sub-title {
 }/* end of header */
 
 /* about */
+
 .about-section {
   background-color: #ecf0f1;
   padding-top: 50px;
@@ -100,8 +101,6 @@ h2.about {
   position: relative;
   vertical-align: middle;
 }
-
-
 
 
 /* projects */
@@ -219,3 +218,9 @@ a.footer {
 }
 
 /* end footer */
+
+
+.about-point{
+  color:red;
+  font-size: 15px;;
+}
