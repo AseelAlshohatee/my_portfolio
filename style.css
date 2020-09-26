@@ -13,7 +13,7 @@
 .container-fluid {
   font-family: Tahoma, Geneva, sans-serif;
 }
- 
+
 /* nav */
 .nav-header {
   font-family: Tahoma, Geneva, sans-serif;
@@ -22,14 +22,14 @@
 
 .navbar {
   align: right;
-}/* end of nav */
-
-
+} /* end of nav */
 
 /* title and title  */
 .header-container {
   height: auto;
-  background: white url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80") no-repeat top;
+  background: white
+    url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80")
+    no-repeat top;
   /* background: blue; */
   /* url("https://thumbs.gfycat.com/NeedyFalseGosling-size_restricted.gif") no-repeat top; */
   background-attachment: fixed;
@@ -38,7 +38,6 @@
 }
 
 .header-image {
-
 }
 
 h1 {
@@ -72,7 +71,7 @@ h1.sub-title {
   margin: 20px;
   background-color: #d8d8d8;
   width: 150px;
-}/* end of header */
+} /* end of header */
 
 /* about */
 
@@ -102,10 +101,11 @@ h2.about {
   vertical-align: middle;
 }
 
-
 /* projects */
 .container-portfolio {
-  background: #fffafa url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg") no-repeat top;
+  background: #fffafa
+    url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg")
+    no-repeat top;
   height: auto;
   background-attachment: fixed;
   background-size: cover;
@@ -167,7 +167,9 @@ h2.header {
 }
 
 .contact-container {
-  background: red url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg") no-repeat bottom;
+  background: red
+    url("http://brandiportfolio.com/images/screenshots/thesisdesk.jpg")
+    no-repeat bottom;
   height: 300px;
   background-attachment: fixed;
   background-size: cover;
@@ -197,20 +199,24 @@ h2.header {
 #rumblr {
   background: url("rumblr.png") no-repeat 50%;
   background-size: cover;
-}/* end of projects */
+}
+#keeper {
+  background: url("keeper.png") no-repeat 50%;
+  background-size: cover;
+}
+/* end of projects */
 
 /* footer */
 .footer {
   background-color: #808080;
   padding: 10px;
-  width: auto
+  width: auto;
 }
 
 p.footer {
   padding: 20px;
   color: white;
   text-align: center;
-
 }
 
 a.footer {
@@ -219,8 +225,7 @@ a.footer {
 
 /* end footer */
 
-
-.about-point{
-  color:red;
-  font-size: 15git px;;
+.about-point {
+  color: red;
+  font-size: 15git px;
 }
